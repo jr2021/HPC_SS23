@@ -1,0 +1,331 @@
++ module load devel/python/3.8.6_gnu_10.2
+++ /opt/bwhpc/common/admin/modules/module-wrapper/modulecmd bash load devel/python/3.8.6_gnu_10.2
++ eval 'GNU_BIN_DIR=/opt/bwhpc/common/compiler/gnu/10.2.0/bin;' export 'GNU_BIN_DIR;' 'GNU_HOME=/opt/bwhpc/common/compiler/gnu/10.2.0;' export 'GNU_HOME;' 'GNU_INC_DIR=/opt/bwhpc/common/compiler/gnu/10.2.0/include;' export 'GNU_INC_DIR;' 'GNU_LIB64_DIR=/opt/bwhpc/common/compiler/gnu/10.2.0/lib64;' export 'GNU_LIB64_DIR;' 'GNU_LIB_DIR=/opt/bwhpc/common/compiler/gnu/10.2.0/lib;' export 'GNU_LIB_DIR;' 'GNU_MAN_DIR=/opt/bwhpc/common/compiler/gnu/10.2.0/share/man;' export 'GNU_MAN_DIR;' 'GNU_VERSION=10.2.0;' export 'GNU_VERSION;' '__LMOD_REF_COUNT_JUPYTER_PATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/share/jupyter:1;' export '__LMOD_REF_COUNT_JUPYTER_PATH;' 'JUPYTER_PATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/share/jupyter;' export 'JUPYTER_PATH;' 'KIT_FAMILY_COMPILER=compiler/gnu;' export 'KIT_FAMILY_COMPILER;' 'KIT_FAMILY_COMPILER_VERSION=10.2;' export 'KIT_FAMILY_COMPILER_VERSION;' '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64:1\;/opt/bwhpc/common/compiler/gnu/10.2.0/lib:1\;/opt/bwhpc/common/compiler/gnu/10.2.0/lib64:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64:/opt/bwhpc/common/compiler/gnu/10.2.0/lib:/opt/bwhpc/common/compiler/gnu/10.2.0/lib64;' export 'LD_LIBRARY_PATH;' 'LMOD_FAMILY_COMPILER=compiler/gnu;' export 'LMOD_FAMILY_COMPILER;' 'LMOD_FAMILY_COMPILER_VERSION=10.2;' export 'LMOD_FAMILY_COMPILER_VERSION;' 'LOADEDMODULES=compiler/gnu/10.2:devel/python/3.8.6_gnu_10.2;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_MANPATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:1\;/opt/bwhpc/common/compiler/gnu/10.2.0/share/man:1\;/opt/lmod/lmod/share/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:/opt/bwhpc/common/compiler/gnu/10.2.0/share/man:/opt/lmod/lmod/share/man::;' export 'MANPATH;' '__LMOD_REF_COUNT_MODULEPATH=/software/bwhpc/common/modulefiles/Compiler/gnu/10.2:1\;/opt/bwhpc/fr/modulefiles:1\;/opt/bwhpc/common/modulefiles/Core:1;' export '__LMOD_REF_COUNT_MODULEPATH;' 'MODULEPATH=/software/bwhpc/common/modulefiles/Compiler/gnu/10.2:/opt/bwhpc/fr/modulefiles:/opt/bwhpc/common/modulefiles/Core;' export 'MODULEPATH;' '__LMOD_REF_COUNT_PATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:1\;/opt/bwhpc/common/compiler/gnu/10.2.0/bin:1\;/software/all/bin:2\;/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:1\;/opt/bwhpc/common/devel/miniconda3/bin:1\;/opt/bwhpc/common/devel/miniconda3/condabin:1\;/home/fr/fr_fr/fr_jr594/.local/bin:1\;/home/fr/fr_fr/fr_jr594/bin:1\;/usr/share/Modules/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/opt/bwhpc/common/compiler/gnu/10.2.0/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/devel/miniconda3/condabin:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin;' export 'PATH;' '__LMOD_REF_COUNT_PYTHONPATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/lib/python3.8/site-packages:1;' export '__LMOD_REF_COUNT_PYTHONPATH;' 'PYTHONPATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/lib/python3.8/site-packages;' export 'PYTHONPATH;' '_LMFILES_=/opt/bwhpc/common/modulefiles/Core/compiler/gnu/10.2.lua:/opt/bwhpc/common/modulefiles/Core/devel/python/3.8.6_gnu_10.2.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJjb21waWxlci9nbnUiLAp9LAptVCA9IHsKWyJjb21waWxlci9nbnUiXSA9IHsKZm4gPSAiL29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZS9jb21waWxlci9nbnUvMTAuMi5sdWEiLApmdWxsTmFtZSA9ICJjb21waWxlci9nbnUvMTAuMiIsCmxvYWRPcmRlciA9IDEsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiY29tcGlsZXIvZ251LzEwLjIiLAp3ViA9ICJeMDAwMDAwMTAuMDAwMDAwMDAyLip6ZmluYWwi;' export '_ModuleTable001_;' '_ModuleTable002_=LAp9LApbImRldmVsL3B5dGhvbiJdID0gewpmbiA9ICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlL2RldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMi5sdWEiLApmdWxsTmFtZSA9ICJkZXZlbC9weXRob24vMy44LjZfZ251XzEwLjIiLApsb2FkT3JkZXIgPSAyLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImRldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMiIsCndWID0gIjAwMDAwMDAwMy4wMDAwMDAwMDguMDAwMDAwMDA2LipfLipnbnUuKl8uMDAwMDAwMDEwLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKfSwKbXBhdGhBID0gewoiL3NvZnR3YXJlL2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db21waWxl;' export '_ModuleTable002_;' '_ModuleTable003_=ci9nbnUvMTAuMiIKLCAiL29wdC9id2hwYy9mci9tb2R1bGVmaWxlcyIsICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9vcHQvYndocGMvZnIvbW9kdWxlZmlsZXM6L29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZSIsCn0K;' export '_ModuleTable003_;' '_ModuleTable_Sz_=3;' export '_ModuleTable_Sz_;' alias 'pip=pip3;'
+++ GNU_BIN_DIR=/opt/bwhpc/common/compiler/gnu/10.2.0/bin
+++ export GNU_BIN_DIR
+++ GNU_HOME=/opt/bwhpc/common/compiler/gnu/10.2.0
+++ export GNU_HOME
+++ GNU_INC_DIR=/opt/bwhpc/common/compiler/gnu/10.2.0/include
+++ export GNU_INC_DIR
+++ GNU_LIB64_DIR=/opt/bwhpc/common/compiler/gnu/10.2.0/lib64
+++ export GNU_LIB64_DIR
+++ GNU_LIB_DIR=/opt/bwhpc/common/compiler/gnu/10.2.0/lib
+++ export GNU_LIB_DIR
+++ GNU_MAN_DIR=/opt/bwhpc/common/compiler/gnu/10.2.0/share/man
+++ export GNU_MAN_DIR
+++ GNU_VERSION=10.2.0
+++ export GNU_VERSION
+++ __LMOD_REF_COUNT_JUPYTER_PATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/share/jupyter:1
+++ export __LMOD_REF_COUNT_JUPYTER_PATH
+++ JUPYTER_PATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/share/jupyter
+++ export JUPYTER_PATH
+++ KIT_FAMILY_COMPILER=compiler/gnu
+++ export KIT_FAMILY_COMPILER
+++ KIT_FAMILY_COMPILER_VERSION=10.2
+++ export KIT_FAMILY_COMPILER_VERSION
+++ __LMOD_REF_COUNT_LD_LIBRARY_PATH='/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64:1;/opt/bwhpc/common/compiler/gnu/10.2.0/lib:1;/opt/bwhpc/common/compiler/gnu/10.2.0/lib64:1'
+++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
+++ LD_LIBRARY_PATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64:/opt/bwhpc/common/compiler/gnu/10.2.0/lib:/opt/bwhpc/common/compiler/gnu/10.2.0/lib64
+++ export LD_LIBRARY_PATH
+++ LMOD_FAMILY_COMPILER=compiler/gnu
+++ export LMOD_FAMILY_COMPILER
+++ LMOD_FAMILY_COMPILER_VERSION=10.2
+++ export LMOD_FAMILY_COMPILER_VERSION
+++ LOADEDMODULES=compiler/gnu/10.2:devel/python/3.8.6_gnu_10.2
+++ export LOADEDMODULES
+++ __LMOD_REF_COUNT_MANPATH='/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:1;/opt/bwhpc/common/compiler/gnu/10.2.0/share/man:1;/opt/lmod/lmod/share/man:1'
+++ export __LMOD_REF_COUNT_MANPATH
+++ MANPATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:/opt/bwhpc/common/compiler/gnu/10.2.0/share/man:/opt/lmod/lmod/share/man::
+++ export MANPATH
+++ __LMOD_REF_COUNT_MODULEPATH='/software/bwhpc/common/modulefiles/Compiler/gnu/10.2:1;/opt/bwhpc/fr/modulefiles:1;/opt/bwhpc/common/modulefiles/Core:1'
+++ export __LMOD_REF_COUNT_MODULEPATH
+++ MODULEPATH=/software/bwhpc/common/modulefiles/Compiler/gnu/10.2:/opt/bwhpc/fr/modulefiles:/opt/bwhpc/common/modulefiles/Core
+++ export MODULEPATH
+++ __LMOD_REF_COUNT_PATH='/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:1;/opt/bwhpc/common/compiler/gnu/10.2.0/bin:1;/software/all/bin:2;/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:1;/opt/bwhpc/common/devel/miniconda3/bin:1;/opt/bwhpc/common/devel/miniconda3/condabin:1;/home/fr/fr_fr/fr_jr594/.local/bin:1;/home/fr/fr_fr/fr_jr594/bin:1;/usr/share/Modules/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1'
+++ export __LMOD_REF_COUNT_PATH
+++ PATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/opt/bwhpc/common/compiler/gnu/10.2.0/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/devel/miniconda3/condabin:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ export PATH
+++ __LMOD_REF_COUNT_PYTHONPATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/lib/python3.8/site-packages:1
+++ export __LMOD_REF_COUNT_PYTHONPATH
+++ PYTHONPATH=/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/lib/python3.8/site-packages
+++ export PYTHONPATH
+++ _LMFILES_=/opt/bwhpc/common/modulefiles/Core/compiler/gnu/10.2.lua:/opt/bwhpc/common/modulefiles/Core/devel/python/3.8.6_gnu_10.2.lua
+++ export _LMFILES_
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJjb21waWxlci9nbnUiLAp9LAptVCA9IHsKWyJjb21waWxlci9nbnUiXSA9IHsKZm4gPSAiL29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZS9jb21waWxlci9nbnUvMTAuMi5sdWEiLApmdWxsTmFtZSA9ICJjb21waWxlci9nbnUvMTAuMiIsCmxvYWRPcmRlciA9IDEsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiY29tcGlsZXIvZ251LzEwLjIiLAp3ViA9ICJeMDAwMDAwMTAuMDAwMDAwMDAyLip6ZmluYWwi
+++ export _ModuleTable001_
+++ _ModuleTable002_=LAp9LApbImRldmVsL3B5dGhvbiJdID0gewpmbiA9ICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlL2RldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMi5sdWEiLApmdWxsTmFtZSA9ICJkZXZlbC9weXRob24vMy44LjZfZ251XzEwLjIiLApsb2FkT3JkZXIgPSAyLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImRldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMiIsCndWID0gIjAwMDAwMDAwMy4wMDAwMDAwMDguMDAwMDAwMDA2LipfLipnbnUuKl8uMDAwMDAwMDEwLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKfSwKbXBhdGhBID0gewoiL3NvZnR3YXJlL2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db21waWxl
+++ export _ModuleTable002_
+++ _ModuleTable003_=ci9nbnUvMTAuMiIKLCAiL29wdC9id2hwYy9mci9tb2R1bGVmaWxlcyIsICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9vcHQvYndocGMvZnIvbW9kdWxlZmlsZXM6L29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZSIsCn0K
+++ export _ModuleTable003_
+++ _ModuleTable_Sz_=3
+++ export _ModuleTable_Sz_
+++ alias pip=pip3
++ module load compiler/gnu/12.1
+++ /opt/bwhpc/common/admin/modules/module-wrapper/modulecmd bash load compiler/gnu/12.1
+
+The following have been reloaded with a version change:
+  1) compiler/gnu/10.2 => compiler/gnu/12.1
+
++ eval 'GNU_BIN_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/bin;' export 'GNU_BIN_DIR;' 'GNU_HOME=/opt/bwhpc/common/compiler/gnu/12.1.0;' export 'GNU_HOME;' 'GNU_INC_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/include;' export 'GNU_INC_DIR;' unset 'GNU_LIB64_DIR;' 'GNU_LIB_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/lib64;' export 'GNU_LIB_DIR;' 'GNU_MAN_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/share/man;' export 'GNU_MAN_DIR;' 'GNU_VERSION=12.1.0;' export 'GNU_VERSION;' 'KIT_FAMILY_COMPILER=compiler/gnu;' export 'KIT_FAMILY_COMPILER;' 'KIT_FAMILY_COMPILER_VERSION=12.1;' export 'KIT_FAMILY_COMPILER_VERSION;' '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/lib64:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/lib64:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64;' export 'LD_LIBRARY_PATH;' 'LMOD_FAMILY_COMPILER=compiler/gnu;' export 'LMOD_FAMILY_COMPILER;' 'LMOD_FAMILY_COMPILER_VERSION=12.1;' export 'LMOD_FAMILY_COMPILER_VERSION;' 'LOADEDMODULES=devel/python/3.8.6_gnu_10.2:compiler/gnu/12.1;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_MANPATH=/opt/bwhpc/common/compiler/gnu/12.1.0/share/man:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:1\;/opt/lmod/lmod/share/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/opt/bwhpc/common/compiler/gnu/12.1.0/share/man:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:/opt/lmod/lmod/share/man::;' export 'MANPATH;' '__LMOD_REF_COUNT_MODULEPATH=/software/bwhpc/common/modulefiles/Compiler/gnu/12.1:1\;/opt/bwhpc/fr/modulefiles:1\;/opt/bwhpc/common/modulefiles/Core:1;' export '__LMOD_REF_COUNT_MODULEPATH;' 'MODULEPATH=/software/bwhpc/common/modulefiles/Compiler/gnu/12.1:/opt/bwhpc/fr/modulefiles:/opt/bwhpc/common/modulefiles/Core;' export 'MODULEPATH;' '__LMOD_REF_COUNT_PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/bin:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:1\;/software/all/bin:2\;/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:1\;/opt/bwhpc/common/devel/miniconda3/bin:1\;/opt/bwhpc/common/devel/miniconda3/condabin:1\;/home/fr/fr_fr/fr_jr594/.local/bin:1\;/home/fr/fr_fr/fr_jr594/bin:1\;/usr/share/Modules/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/devel/miniconda3/condabin:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin;' export 'PATH;' '_LMFILES_=/opt/bwhpc/common/modulefiles/Core/devel/python/3.8.6_gnu_10.2.lua:/opt/bwhpc/common/modulefiles/Core/compiler/gnu/12.1.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJjb21waWxlci9nbnUiLAp9LAptVCA9IHsKWyJjb21waWxlci9nbnUiXSA9IHsKZm4gPSAiL29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZS9jb21waWxlci9nbnUvMTIuMS5sdWEiLApmdWxsTmFtZSA9ICJjb21waWxlci9nbnUvMTIuMSIsCmxvYWRPcmRlciA9IDIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiY29tcGlsZXIvZ251LzEyLjEiLAp3ViA9ICIwMDAwMDAwMTIuMDAwMDAwMDAxLip6ZmluYWwi;' export '_ModuleTable001_;' '_ModuleTable002_=LAp9LApbImRldmVsL3B5dGhvbiJdID0gewpmbiA9ICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlL2RldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMi5sdWEiLApmdWxsTmFtZSA9ICJkZXZlbC9weXRob24vMy44LjZfZ251XzEwLjIiLApsb2FkT3JkZXIgPSAxLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImRldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMiIsCndWID0gIjAwMDAwMDAwMy4wMDAwMDAwMDguMDAwMDAwMDA2LipfLipnbnUuKl8uMDAwMDAwMDEwLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKfSwKbXBhdGhBID0gewoiL3NvZnR3YXJlL2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db21waWxl;' export '_ModuleTable002_;' '_ModuleTable003_=ci9nbnUvMTIuMSIKLCAiL29wdC9id2hwYy9mci9tb2R1bGVmaWxlcyIsICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9vcHQvYndocGMvZnIvbW9kdWxlZmlsZXM6L29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZSIsCn0K;' export '_ModuleTable003_;' '_ModuleTable_Sz_=3;' export '_ModuleTable_Sz_;'
+++ GNU_BIN_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/bin
+++ export GNU_BIN_DIR
+++ GNU_HOME=/opt/bwhpc/common/compiler/gnu/12.1.0
+++ export GNU_HOME
+++ GNU_INC_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/include
+++ export GNU_INC_DIR
+++ unset GNU_LIB64_DIR
+++ GNU_LIB_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/lib64
+++ export GNU_LIB_DIR
+++ GNU_MAN_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/share/man
+++ export GNU_MAN_DIR
+++ GNU_VERSION=12.1.0
+++ export GNU_VERSION
+++ KIT_FAMILY_COMPILER=compiler/gnu
+++ export KIT_FAMILY_COMPILER
+++ KIT_FAMILY_COMPILER_VERSION=12.1
+++ export KIT_FAMILY_COMPILER_VERSION
+++ __LMOD_REF_COUNT_LD_LIBRARY_PATH='/opt/bwhpc/common/compiler/gnu/12.1.0/lib64:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64:1'
+++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
+++ LD_LIBRARY_PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/lib64:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64
+++ export LD_LIBRARY_PATH
+++ LMOD_FAMILY_COMPILER=compiler/gnu
+++ export LMOD_FAMILY_COMPILER
+++ LMOD_FAMILY_COMPILER_VERSION=12.1
+++ export LMOD_FAMILY_COMPILER_VERSION
+++ LOADEDMODULES=devel/python/3.8.6_gnu_10.2:compiler/gnu/12.1
+++ export LOADEDMODULES
+++ __LMOD_REF_COUNT_MANPATH='/opt/bwhpc/common/compiler/gnu/12.1.0/share/man:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:1;/opt/lmod/lmod/share/man:1'
+++ export __LMOD_REF_COUNT_MANPATH
+++ MANPATH=/opt/bwhpc/common/compiler/gnu/12.1.0/share/man:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:/opt/lmod/lmod/share/man::
+++ export MANPATH
+++ __LMOD_REF_COUNT_MODULEPATH='/software/bwhpc/common/modulefiles/Compiler/gnu/12.1:1;/opt/bwhpc/fr/modulefiles:1;/opt/bwhpc/common/modulefiles/Core:1'
+++ export __LMOD_REF_COUNT_MODULEPATH
+++ MODULEPATH=/software/bwhpc/common/modulefiles/Compiler/gnu/12.1:/opt/bwhpc/fr/modulefiles:/opt/bwhpc/common/modulefiles/Core
+++ export MODULEPATH
+++ __LMOD_REF_COUNT_PATH='/opt/bwhpc/common/compiler/gnu/12.1.0/bin:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:1;/software/all/bin:2;/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:1;/opt/bwhpc/common/devel/miniconda3/bin:1;/opt/bwhpc/common/devel/miniconda3/condabin:1;/home/fr/fr_fr/fr_jr594/.local/bin:1;/home/fr/fr_fr/fr_jr594/bin:1;/usr/share/Modules/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1'
+++ export __LMOD_REF_COUNT_PATH
+++ PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/devel/miniconda3/condabin:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ export PATH
+++ _LMFILES_=/opt/bwhpc/common/modulefiles/Core/devel/python/3.8.6_gnu_10.2.lua:/opt/bwhpc/common/modulefiles/Core/compiler/gnu/12.1.lua
+++ export _LMFILES_
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJjb21waWxlci9nbnUiLAp9LAptVCA9IHsKWyJjb21waWxlci9nbnUiXSA9IHsKZm4gPSAiL29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZS9jb21waWxlci9nbnUvMTIuMS5sdWEiLApmdWxsTmFtZSA9ICJjb21waWxlci9nbnUvMTIuMSIsCmxvYWRPcmRlciA9IDIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiY29tcGlsZXIvZ251LzEyLjEiLAp3ViA9ICIwMDAwMDAwMTIuMDAwMDAwMDAxLip6ZmluYWwi
+++ export _ModuleTable001_
+++ _ModuleTable002_=LAp9LApbImRldmVsL3B5dGhvbiJdID0gewpmbiA9ICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlL2RldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMi5sdWEiLApmdWxsTmFtZSA9ICJkZXZlbC9weXRob24vMy44LjZfZ251XzEwLjIiLApsb2FkT3JkZXIgPSAxLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImRldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMiIsCndWID0gIjAwMDAwMDAwMy4wMDAwMDAwMDguMDAwMDAwMDA2LipfLipnbnUuKl8uMDAwMDAwMDEwLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKfSwKbXBhdGhBID0gewoiL3NvZnR3YXJlL2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db21waWxl
+++ export _ModuleTable002_
+++ _ModuleTable003_=ci9nbnUvMTIuMSIKLCAiL29wdC9id2hwYy9mci9tb2R1bGVmaWxlcyIsICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9vcHQvYndocGMvZnIvbW9kdWxlZmlsZXM6L29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZSIsCn0K
+++ export _ModuleTable003_
+++ _ModuleTable_Sz_=3
+++ export _ModuleTable_Sz_
++ module load mpi/openmpi/4.1
+++ /opt/bwhpc/common/admin/modules/module-wrapper/modulecmd bash load mpi/openmpi/4.1
++ eval 'GNU_BIN_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/bin;' export 'GNU_BIN_DIR;' 'GNU_HOME=/opt/bwhpc/common/compiler/gnu/12.1.0;' export 'GNU_HOME;' 'GNU_INC_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/include;' export 'GNU_INC_DIR;' 'GNU_LIB_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/lib64;' export 'GNU_LIB_DIR;' 'GNU_MAN_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/share/man;' export 'GNU_MAN_DIR;' 'GNU_VERSION=12.1.0;' export 'GNU_VERSION;' 'KIT_FAMILY_COMPILER=compiler/gnu;' export 'KIT_FAMILY_COMPILER;' 'KIT_FAMILY_COMPILER_VERSION=12.1;' export 'KIT_FAMILY_COMPILER_VERSION;' '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/lib64:1\;/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/lib64:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/lib64:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/lib64:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64;' export 'LD_LIBRARY_PATH;' 'LMOD_FAMILY_COMPILER=compiler/gnu;' export 'LMOD_FAMILY_COMPILER;' 'LMOD_FAMILY_COMPILER_VERSION=12.1;' export 'LMOD_FAMILY_COMPILER_VERSION;' 'LOADEDMODULES=devel/python/3.8.6_gnu_10.2:compiler/gnu/12.1:mpi/openmpi/4.1;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_MANPATH=/opt/bwhpc/common/compiler/gnu/12.1.0/share/man:1\;/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/share/man:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:1\;/opt/lmod/lmod/share/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/opt/bwhpc/common/compiler/gnu/12.1.0/share/man:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/share/man:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:/opt/lmod/lmod/share/man::;' export 'MANPATH;' 'MODULEPATH=/software/bwhpc/common/modulefiles/Compiler/gnu/12.1:/opt/bwhpc/fr/modulefiles:/opt/bwhpc/common/modulefiles/Core;' export 'MODULEPATH;' 'MPIDIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1;' export 'MPIDIR;' 'MPI_BIN_DIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin;' export 'MPI_BIN_DIR;' 'MPI_EXA_DIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/examples;' export 'MPI_EXA_DIR;' 'MPI_HOME=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1;' export 'MPI_HOME;' 'MPI_INC_DIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/include;' export 'MPI_INC_DIR;' 'MPI_LIB_DIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/lib64;' export 'MPI_LIB_DIR;' 'MPI_MAN_DIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/share/man;' export 'MPI_MAN_DIR;' 'MPI_VERSION=4.1.4-gnu-12.1;' export 'MPI_VERSION;' '__LMOD_REF_COUNT_PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/bin:1\;/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:1\;/software/all/bin:2\;/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:1\;/opt/bwhpc/common/devel/miniconda3/bin:1\;/opt/bwhpc/common/devel/miniconda3/condabin:1\;/home/fr/fr_fr/fr_jr594/.local/bin:1\;/home/fr/fr_fr/fr_jr594/bin:1\;/usr/share/Modules/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/devel/miniconda3/condabin:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin;' export 'PATH;' '_LMFILES_=/opt/bwhpc/common/modulefiles/Core/devel/python/3.8.6_gnu_10.2.lua:/opt/bwhpc/common/modulefiles/Core/compiler/gnu/12.1.lua:/software/bwhpc/common/modulefiles/Compiler/gnu/12.1/mpi/openmpi/4.1.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJjb21waWxlci9nbnUiLAp9LAptVCA9IHsKWyJjb21waWxlci9nbnUiXSA9IHsKZm4gPSAiL29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZS9jb21waWxlci9nbnUvMTIuMS5sdWEiLApmdWxsTmFtZSA9ICJjb21waWxlci9nbnUvMTIuMSIsCmxvYWRPcmRlciA9IDIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiY29tcGlsZXIvZ251LzEyLjEiLAp3ViA9ICIwMDAwMDAwMTIuMDAwMDAwMDAxLip6ZmluYWwi;' export '_ModuleTable001_;' '_ModuleTable002_=LAp9LApbImRldmVsL3B5dGhvbiJdID0gewpmbiA9ICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlL2RldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMi5sdWEiLApmdWxsTmFtZSA9ICJkZXZlbC9weXRob24vMy44LjZfZ251XzEwLjIiLApsb2FkT3JkZXIgPSAxLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImRldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMiIsCndWID0gIjAwMDAwMDAwMy4wMDAwMDAwMDguMDAwMDAwMDA2LipfLipnbnUuKl8uMDAwMDAwMDEwLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKWyJtcGkvb3Blbm1waSJdID0gewpmbiA9ICIvc29mdHdhcmUvYndocGMvY29tbW9uL21vZHVsZWZp;' export '_ModuleTable002_;' '_ModuleTable003_=bGVzL0NvbXBpbGVyL2dudS8xMi4xL21waS9vcGVubXBpLzQuMS5sdWEiLApmdWxsTmFtZSA9ICJtcGkvb3Blbm1waS80LjEiLApsb2FkT3JkZXIgPSAzLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gIm1waS9vcGVubXBpLzQuMSIsCndWID0gIjAwMDAwMDAwNC4wMDAwMDAwMDEuKnpmaW5hbCIsCn0sCn0sCm1wYXRoQSA9IHsKIi9zb2Z0d2FyZS9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29tcGlsZXIvZ251LzEyLjEiCiwgIi9vcHQvYndocGMvZnIvbW9kdWxlZmlsZXMiLCAiL29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZSIsCn0sCnN5c3RlbUJhc2VNUEFUSCA9ICIvb3B0L2J3aHBjL2ZyL21vZHVs;' export '_ModuleTable003_;' '_ModuleTable004_=ZWZpbGVzOi9vcHQvYndocGMvY29tbW9uL21vZHVsZWZpbGVzL0NvcmUiLAp9Cg==;' export '_ModuleTable004_;' '_ModuleTable_Sz_=4;' export '_ModuleTable_Sz_;'
+++ GNU_BIN_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/bin
+++ export GNU_BIN_DIR
+++ GNU_HOME=/opt/bwhpc/common/compiler/gnu/12.1.0
+++ export GNU_HOME
+++ GNU_INC_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/include
+++ export GNU_INC_DIR
+++ GNU_LIB_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/lib64
+++ export GNU_LIB_DIR
+++ GNU_MAN_DIR=/opt/bwhpc/common/compiler/gnu/12.1.0/share/man
+++ export GNU_MAN_DIR
+++ GNU_VERSION=12.1.0
+++ export GNU_VERSION
+++ KIT_FAMILY_COMPILER=compiler/gnu
+++ export KIT_FAMILY_COMPILER
+++ KIT_FAMILY_COMPILER_VERSION=12.1
+++ export KIT_FAMILY_COMPILER_VERSION
+++ __LMOD_REF_COUNT_LD_LIBRARY_PATH='/opt/bwhpc/common/compiler/gnu/12.1.0/lib64:1;/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/lib64:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64:1'
+++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
+++ LD_LIBRARY_PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/lib64:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/lib64:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib64
+++ export LD_LIBRARY_PATH
+++ LMOD_FAMILY_COMPILER=compiler/gnu
+++ export LMOD_FAMILY_COMPILER
+++ LMOD_FAMILY_COMPILER_VERSION=12.1
+++ export LMOD_FAMILY_COMPILER_VERSION
+++ LOADEDMODULES=devel/python/3.8.6_gnu_10.2:compiler/gnu/12.1:mpi/openmpi/4.1
+++ export LOADEDMODULES
+++ __LMOD_REF_COUNT_MANPATH='/opt/bwhpc/common/compiler/gnu/12.1.0/share/man:1;/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/share/man:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:1;/opt/lmod/lmod/share/man:1'
+++ export __LMOD_REF_COUNT_MANPATH
+++ MANPATH=/opt/bwhpc/common/compiler/gnu/12.1.0/share/man:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/share/man:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/share/man:/opt/lmod/lmod/share/man::
+++ export MANPATH
+++ MODULEPATH=/software/bwhpc/common/modulefiles/Compiler/gnu/12.1:/opt/bwhpc/fr/modulefiles:/opt/bwhpc/common/modulefiles/Core
+++ export MODULEPATH
+++ MPIDIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1
+++ export MPIDIR
+++ MPI_BIN_DIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin
+++ export MPI_BIN_DIR
+++ MPI_EXA_DIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/examples
+++ export MPI_EXA_DIR
+++ MPI_HOME=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1
+++ export MPI_HOME
+++ MPI_INC_DIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/include
+++ export MPI_INC_DIR
+++ MPI_LIB_DIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/lib64
+++ export MPI_LIB_DIR
+++ MPI_MAN_DIR=/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/share/man
+++ export MPI_MAN_DIR
+++ MPI_VERSION=4.1.4-gnu-12.1
+++ export MPI_VERSION
+++ __LMOD_REF_COUNT_PATH='/opt/bwhpc/common/compiler/gnu/12.1.0/bin:1;/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:1;/software/all/bin:2;/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:1;/opt/bwhpc/common/devel/miniconda3/bin:1;/opt/bwhpc/common/devel/miniconda3/condabin:1;/home/fr/fr_fr/fr_jr594/.local/bin:1;/home/fr/fr_fr/fr_jr594/bin:1;/usr/share/Modules/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1'
+++ export __LMOD_REF_COUNT_PATH
+++ PATH=/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/devel/miniconda3/condabin:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ export PATH
+++ _LMFILES_=/opt/bwhpc/common/modulefiles/Core/devel/python/3.8.6_gnu_10.2.lua:/opt/bwhpc/common/modulefiles/Core/compiler/gnu/12.1.lua:/software/bwhpc/common/modulefiles/Compiler/gnu/12.1/mpi/openmpi/4.1.lua
+++ export _LMFILES_
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJjb21waWxlci9nbnUiLAp9LAptVCA9IHsKWyJjb21waWxlci9nbnUiXSA9IHsKZm4gPSAiL29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZS9jb21waWxlci9nbnUvMTIuMS5sdWEiLApmdWxsTmFtZSA9ICJjb21waWxlci9nbnUvMTIuMSIsCmxvYWRPcmRlciA9IDIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiY29tcGlsZXIvZ251LzEyLjEiLAp3ViA9ICIwMDAwMDAwMTIuMDAwMDAwMDAxLip6ZmluYWwi
+++ export _ModuleTable001_
+++ _ModuleTable002_=LAp9LApbImRldmVsL3B5dGhvbiJdID0gewpmbiA9ICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlL2RldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMi5sdWEiLApmdWxsTmFtZSA9ICJkZXZlbC9weXRob24vMy44LjZfZ251XzEwLjIiLApsb2FkT3JkZXIgPSAxLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImRldmVsL3B5dGhvbi8zLjguNl9nbnVfMTAuMiIsCndWID0gIjAwMDAwMDAwMy4wMDAwMDAwMDguMDAwMDAwMDA2LipfLipnbnUuKl8uMDAwMDAwMDEwLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKWyJtcGkvb3Blbm1waSJdID0gewpmbiA9ICIvc29mdHdhcmUvYndocGMvY29tbW9uL21vZHVsZWZp
+++ export _ModuleTable002_
+++ _ModuleTable003_=bGVzL0NvbXBpbGVyL2dudS8xMi4xL21waS9vcGVubXBpLzQuMS5sdWEiLApmdWxsTmFtZSA9ICJtcGkvb3Blbm1waS80LjEiLApsb2FkT3JkZXIgPSAzLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gIm1waS9vcGVubXBpLzQuMSIsCndWID0gIjAwMDAwMDAwNC4wMDAwMDAwMDEuKnpmaW5hbCIsCn0sCn0sCm1wYXRoQSA9IHsKIi9zb2Z0d2FyZS9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29tcGlsZXIvZ251LzEyLjEiCiwgIi9vcHQvYndocGMvZnIvbW9kdWxlZmlsZXMiLCAiL29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZSIsCn0sCnN5c3RlbUJhc2VNUEFUSCA9ICIvb3B0L2J3aHBjL2ZyL21vZHVs
+++ export _ModuleTable003_
+++ _ModuleTable004_=ZWZpbGVzOi9vcHQvYndocGMvY29tbW9uL21vZHVsZWZpbGVzL0NvcmUiLAp9Cg==
+++ export _ModuleTable004_
+++ _ModuleTable_Sz_=4
+++ export _ModuleTable_Sz_
++ module load devel/miniconda
+++ /opt/bwhpc/common/admin/modules/module-wrapper/modulecmd bash load devel/miniconda
++ eval 'CONDA_EXE=/opt/bwhpc/common/devel/miniconda3/bin/conda;' export 'CONDA_EXE;' 'CONDA_PYTHON_EXE=/opt/bwhpc/common/devel/miniconda3/bin/python;' export 'CONDA_PYTHON_EXE;' 'CONDA_SHLVL=0;' export 'CONDA_SHLVL;' 'LOADEDMODULES=devel/python/3.8.6_gnu_10.2:compiler/gnu/12.1:mpi/openmpi/4.1:devel/miniconda/4.9.2;' export 'LOADEDMODULES;' 'MODULEPATH=/software/bwhpc/common/modulefiles/Compiler/gnu/12.1:/opt/bwhpc/fr/modulefiles:/opt/bwhpc/common/modulefiles/Core;' export 'MODULEPATH;' '__LMOD_REF_COUNT_PATH=/opt/bwhpc/common/devel/miniconda3/condabin:2\;/opt/bwhpc/common/devel/miniconda3/bin:2\;/opt/bwhpc/common/compiler/gnu/12.1.0/bin:1\;/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:1\;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:1\;/software/all/bin:2\;/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:1\;/home/fr/fr_fr/fr_jr594/.local/bin:1\;/home/fr/fr_fr/fr_jr594/bin:1\;/usr/share/Modules/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/bwhpc/common/devel/miniconda3/condabin:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin;' export 'PATH;' '_CE_CONDA=;' export '_CE_CONDA;' '_CE_M=;' export '_CE_M;' '_CONDA_ROOT=/opt/bwhpc/common/devel/miniconda3;' export '_CONDA_ROOT;' '_CONDA_SHELL_FLAVOR=bash;' export '_CONDA_SHELL_FLAVOR;' '_LMFILES_=/opt/bwhpc/common/modulefiles/Core/devel/python/3.8.6_gnu_10.2.lua:/opt/bwhpc/common/modulefiles/Core/compiler/gnu/12.1.lua:/software/bwhpc/common/modulefiles/Compiler/gnu/12.1/mpi/openmpi/4.1.lua:/opt/bwhpc/common/modulefiles/Core/devel/miniconda/4.9.2;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJjb21waWxlci9nbnUiLAp9LAptVCA9IHsKWyJjb21waWxlci9nbnUiXSA9IHsKZm4gPSAiL29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZS9jb21waWxlci9nbnUvMTIuMS5sdWEiLApmdWxsTmFtZSA9ICJjb21waWxlci9nbnUvMTIuMSIsCmxvYWRPcmRlciA9IDIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiY29tcGlsZXIvZ251LzEyLjEiLAp3ViA9ICIwMDAwMDAwMTIuMDAwMDAwMDAxLip6ZmluYWwi;' export '_ModuleTable001_;' '_ModuleTable002_=LAp9LApbImRldmVsL21pbmljb25kYSJdID0gewpmbiA9ICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlL2RldmVsL21pbmljb25kYS80LjkuMiIsCmZ1bGxOYW1lID0gImRldmVsL21pbmljb25kYS80LjkuMiIsCmxvYWRPcmRlciA9IDQsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiZGV2ZWwvbWluaWNvbmRhIiwKd1YgPSAiMDAwMDAwMDA0LjAwMDAwMDAwOS4wMDAwMDAwMDIuKnpmaW5hbCIsCn0sClsiZGV2ZWwvcHl0aG9uIl0gPSB7CmZuID0gIi9vcHQvYndocGMvY29tbW9uL21vZHVsZWZpbGVzL0NvcmUvZGV2ZWwvcHl0aG9uLzMuOC42X2dudV8xMC4yLmx1YSIsCmZ1bGxOYW1lID0gImRldmVs;' export '_ModuleTable002_;' '_ModuleTable003_=L3B5dGhvbi8zLjguNl9nbnVfMTAuMiIsCmxvYWRPcmRlciA9IDEsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiZGV2ZWwvcHl0aG9uLzMuOC42X2dudV8xMC4yIiwKd1YgPSAiMDAwMDAwMDAzLjAwMDAwMDAwOC4wMDAwMDAwMDYuKl8uKmdudS4qXy4wMDAwMDAwMTAuMDAwMDAwMDAyLip6ZmluYWwiLAp9LApbIm1waS9vcGVubXBpIl0gPSB7CmZuID0gIi9zb2Z0d2FyZS9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29tcGlsZXIvZ251LzEyLjEvbXBpL29wZW5tcGkvNC4xLmx1YSIsCmZ1bGxOYW1lID0gIm1waS9vcGVubXBpLzQuMSIsCmxvYWRPcmRlciA9IDMsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApz;' export '_ModuleTable003_;' '_ModuleTable004_=dGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAibXBpL29wZW5tcGkvNC4xIiwKd1YgPSAiMDAwMDAwMDA0LjAwMDAwMDAwMS4qemZpbmFsIiwKfSwKfSwKbXBhdGhBID0gewoiL3NvZnR3YXJlL2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db21waWxlci9nbnUvMTIuMSIKLCAiL29wdC9id2hwYy9mci9tb2R1bGVmaWxlcyIsICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9vcHQvYndocGMvZnIvbW9kdWxlZmlsZXM6L29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZSIsCn0K;' export '_ModuleTable004_;' '_ModuleTable_Sz_=4;' export '_ModuleTable_Sz_;'
+++ CONDA_EXE=/opt/bwhpc/common/devel/miniconda3/bin/conda
+++ export CONDA_EXE
+++ CONDA_PYTHON_EXE=/opt/bwhpc/common/devel/miniconda3/bin/python
+++ export CONDA_PYTHON_EXE
+++ CONDA_SHLVL=0
+++ export CONDA_SHLVL
+++ LOADEDMODULES=devel/python/3.8.6_gnu_10.2:compiler/gnu/12.1:mpi/openmpi/4.1:devel/miniconda/4.9.2
+++ export LOADEDMODULES
+++ MODULEPATH=/software/bwhpc/common/modulefiles/Compiler/gnu/12.1:/opt/bwhpc/fr/modulefiles:/opt/bwhpc/common/modulefiles/Core
+++ export MODULEPATH
+++ __LMOD_REF_COUNT_PATH='/opt/bwhpc/common/devel/miniconda3/condabin:2;/opt/bwhpc/common/devel/miniconda3/bin:2;/opt/bwhpc/common/compiler/gnu/12.1.0/bin:1;/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:1;/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:1;/software/all/bin:2;/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:1;/home/fr/fr_fr/fr_jr594/.local/bin:1;/home/fr/fr_fr/fr_jr594/bin:1;/usr/share/Modules/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1'
+++ export __LMOD_REF_COUNT_PATH
+++ PATH=/opt/bwhpc/common/devel/miniconda3/condabin:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ export PATH
+++ _CE_CONDA=
+++ export _CE_CONDA
+++ _CE_M=
+++ export _CE_M
+++ _CONDA_ROOT=/opt/bwhpc/common/devel/miniconda3
+++ export _CONDA_ROOT
+++ _CONDA_SHELL_FLAVOR=bash
+++ export _CONDA_SHELL_FLAVOR
+++ _LMFILES_=/opt/bwhpc/common/modulefiles/Core/devel/python/3.8.6_gnu_10.2.lua:/opt/bwhpc/common/modulefiles/Core/compiler/gnu/12.1.lua:/software/bwhpc/common/modulefiles/Compiler/gnu/12.1/mpi/openmpi/4.1.lua:/opt/bwhpc/common/modulefiles/Core/devel/miniconda/4.9.2
+++ export _LMFILES_
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJjb21waWxlci9nbnUiLAp9LAptVCA9IHsKWyJjb21waWxlci9nbnUiXSA9IHsKZm4gPSAiL29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZS9jb21waWxlci9nbnUvMTIuMS5sdWEiLApmdWxsTmFtZSA9ICJjb21waWxlci9nbnUvMTIuMSIsCmxvYWRPcmRlciA9IDIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiY29tcGlsZXIvZ251LzEyLjEiLAp3ViA9ICIwMDAwMDAwMTIuMDAwMDAwMDAxLip6ZmluYWwi
+++ export _ModuleTable001_
+++ _ModuleTable002_=LAp9LApbImRldmVsL21pbmljb25kYSJdID0gewpmbiA9ICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlL2RldmVsL21pbmljb25kYS80LjkuMiIsCmZ1bGxOYW1lID0gImRldmVsL21pbmljb25kYS80LjkuMiIsCmxvYWRPcmRlciA9IDQsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiZGV2ZWwvbWluaWNvbmRhIiwKd1YgPSAiMDAwMDAwMDA0LjAwMDAwMDAwOS4wMDAwMDAwMDIuKnpmaW5hbCIsCn0sClsiZGV2ZWwvcHl0aG9uIl0gPSB7CmZuID0gIi9vcHQvYndocGMvY29tbW9uL21vZHVsZWZpbGVzL0NvcmUvZGV2ZWwvcHl0aG9uLzMuOC42X2dudV8xMC4yLmx1YSIsCmZ1bGxOYW1lID0gImRldmVs
+++ export _ModuleTable002_
+++ _ModuleTable003_=L3B5dGhvbi8zLjguNl9nbnVfMTAuMiIsCmxvYWRPcmRlciA9IDEsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiZGV2ZWwvcHl0aG9uLzMuOC42X2dudV8xMC4yIiwKd1YgPSAiMDAwMDAwMDAzLjAwMDAwMDAwOC4wMDAwMDAwMDYuKl8uKmdudS4qXy4wMDAwMDAwMTAuMDAwMDAwMDAyLip6ZmluYWwiLAp9LApbIm1waS9vcGVubXBpIl0gPSB7CmZuID0gIi9zb2Z0d2FyZS9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29tcGlsZXIvZ251LzEyLjEvbXBpL29wZW5tcGkvNC4xLmx1YSIsCmZ1bGxOYW1lID0gIm1waS9vcGVubXBpLzQuMSIsCmxvYWRPcmRlciA9IDMsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApz
+++ export _ModuleTable003_
+++ _ModuleTable004_=dGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAibXBpL29wZW5tcGkvNC4xIiwKd1YgPSAiMDAwMDAwMDA0LjAwMDAwMDAwMS4qemZpbmFsIiwKfSwKfSwKbXBhdGhBID0gewoiL3NvZnR3YXJlL2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db21waWxlci9nbnUvMTIuMSIKLCAiL29wdC9id2hwYy9mci9tb2R1bGVmaWxlcyIsICIvb3B0L2J3aHBjL2NvbW1vbi9tb2R1bGVmaWxlcy9Db3JlIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9vcHQvYndocGMvZnIvbW9kdWxlZmlsZXM6L29wdC9id2hwYy9jb21tb24vbW9kdWxlZmlsZXMvQ29yZSIsCn0K
+++ export _ModuleTable004_
+++ _ModuleTable_Sz_=4
+++ export _ModuleTable_Sz_
++ source activate hpc
+++ _CONDA_ROOT=/opt/bwhpc/common/devel/miniconda3
+++ . /opt/bwhpc/common/devel/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/bwhpc/common/devel/miniconda3/bin/conda
++++ CONDA_EXE=/opt/bwhpc/common/devel/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/bwhpc/common/devel/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/bwhpc/common/devel/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate hpc
+++ '[' 2 -lt 1 ']'
+++ local cmd=activate
+++ shift
+++ case "$cmd" in
+++ __conda_activate activate hpc
+++ '[' -n '' ']'
+++ local cmd=activate
+++ shift
+++ local ask_conda
+++ CONDA_INTERNAL_OLDPATH=/opt/bwhpc/common/devel/miniconda3/condabin:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ __add_sys_prefix_to_path
+++ '[' -n '' ']'
++++ dirname /opt/bwhpc/common/devel/miniconda3/bin/conda
+++ SYSP=/opt/bwhpc/common/devel/miniconda3/bin
++++ dirname /opt/bwhpc/common/devel/miniconda3/bin
+++ SYSP=/opt/bwhpc/common/devel/miniconda3
+++ '[' -n '' ']'
+++ PATH=/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/devel/miniconda3/condabin:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ export PATH
++++ PS1=
++++ /opt/bwhpc/common/devel/miniconda3/bin/conda shell.posix activate hpc
+++ ask_conda='PS1='\''(hpc) '\''
+export PATH='\''/home/fr/fr_fr/fr_jr594/.conda/envs/hpc/bin:/opt/bwhpc/common/devel/miniconda3/condabin:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_PREFIX='\''/home/fr/fr_fr/fr_jr594/.conda/envs/hpc'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''hpc'\''
+export CONDA_PROMPT_MODIFIER='\''(hpc) '\''
+export CONDA_EXE='\''/opt/bwhpc/common/devel/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/bwhpc/common/devel/miniconda3/bin/python'\'''
+++ rc=0
+++ PATH=/opt/bwhpc/common/devel/miniconda3/condabin:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ eval 'PS1='\''(hpc) '\''
+export PATH='\''/home/fr/fr_fr/fr_jr594/.conda/envs/hpc/bin:/opt/bwhpc/common/devel/miniconda3/condabin:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_PREFIX='\''/home/fr/fr_fr/fr_jr594/.conda/envs/hpc'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''hpc'\''
+export CONDA_PROMPT_MODIFIER='\''(hpc) '\''
+export CONDA_EXE='\''/opt/bwhpc/common/devel/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/bwhpc/common/devel/miniconda3/bin/python'\'''
++++ PS1='(hpc) '
++++ export PATH=/home/fr/fr_fr/fr_jr594/.conda/envs/hpc/bin:/opt/bwhpc/common/devel/miniconda3/condabin:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
++++ PATH=/home/fr/fr_fr/fr_jr594/.conda/envs/hpc/bin:/opt/bwhpc/common/devel/miniconda3/condabin:/opt/bwhpc/common/devel/miniconda3/bin:/opt/bwhpc/common/compiler/gnu/12.1.0/bin:/opt/bwhpc/common/mpi/openmpi/4.1.4-gnu-12.1/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/lib/python3.8/site-packages/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/bin:/opt/bwhpc/common/devel/python/3.8.6_gnu_10.2/python_gnu_packages/bin:/software/all/bin:/pfs/data5/home/fr/fr_fr/fr_jr594/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/home/fr/fr_fr/fr_jr594/.local/bin:/home/fr/fr_fr/fr_jr594/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
++++ export CONDA_PREFIX=/home/fr/fr_fr/fr_jr594/.conda/envs/hpc
++++ CONDA_PREFIX=/home/fr/fr_fr/fr_jr594/.conda/envs/hpc
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=hpc
++++ CONDA_DEFAULT_ENV=hpc
++++ export 'CONDA_PROMPT_MODIFIER=(hpc) '
++++ CONDA_PROMPT_MODIFIER='(hpc) '
++++ export CONDA_EXE=/opt/bwhpc/common/devel/miniconda3/bin/conda
++++ CONDA_EXE=/opt/bwhpc/common/devel/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/bwhpc/common/devel/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/bwhpc/common/devel/miniconda3/bin/python
+++ '[' 0 '!=' 0 ']'
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ NP=4
++ echo 'Running on 1 nodes with 80 cores each.'
+Running on 1 nodes with 80 cores each.
++ echo 'Each node has 10240 of memory allocated to this job.'
+Each node has 10240 of memory allocated to this job.
++ mpirun -np 4 python Simulation.py
+t=:   0%|          | 0/1000 [00:00<?, ?it/s]t=:   0%|          | 0/1000 [00:00<?, ?it/s]t=:   0%|          | 0/1000 [00:00<?, ?it/s]t=:   0%|          | 0/1000 [00:00<?, ?it/s]t=:   2%|▏         | 20/1000 [00:00<00:05, 191.87it/s]t=:   2%|▏         | 20/1000 [00:00<00:05, 190.76it/s]t=:   2%|▏         | 20/1000 [00:00<00:05, 190.65it/s]t=:   2%|▏         | 20/1000 [00:00<00:05, 192.18it/s]t=:   4%|▍         | 41/1000 [00:00<00:04, 198.43it/s]t=:   4%|▍         | 41/1000 [00:00<00:04, 199.04it/s]t=:   4%|▍         | 41/1000 [00:00<00:04, 198.39it/s]t=:   4%|▍         | 41/1000 [00:00<00:04, 198.91it/s]t=:   6%|▌         | 62/1000 [00:00<00:04, 202.28it/s]t=:   6%|▌         | 62/1000 [00:00<00:04, 201.92it/s]t=:   6%|▌         | 62/1000 [00:00<00:04, 201.94it/s]t=:   6%|▌         | 62/1000 [00:00<00:04, 202.21it/s]t=:   8%|▊         | 83/1000 [00:00<00:04, 203.30it/s]t=:   8%|▊         | 83/1000 [00:00<00:04, 203.48it/s]t=:   8%|▊         | 83/1000 [00:00<00:04, 203.31it/s]t=:   8%|▊         | 83/1000 [00:00<00:04, 203.52it/s]t=:  10%|█         | 104/1000 [00:00<00:04, 204.38it/s]t=:  10%|█         | 104/1000 [00:00<00:04, 204.52it/s]t=:  10%|█         | 104/1000 [00:00<00:04, 204.49it/s]t=:  10%|█         | 104/1000 [00:00<00:04, 204.39it/s]t=:  12%|█▎        | 125/1000 [00:00<00:04, 204.89it/s]t=:  12%|█▎        | 125/1000 [00:00<00:04, 204.99it/s]t=:  12%|█▎        | 125/1000 [00:00<00:04, 204.97it/s]t=:  12%|█▎        | 125/1000 [00:00<00:04, 204.89it/s]t=:  15%|█▍        | 146/1000 [00:00<00:04, 201.96it/s]t=:  15%|█▍        | 146/1000 [00:00<00:04, 201.92it/s]t=:  15%|█▍        | 146/1000 [00:00<00:04, 201.93it/s]t=:  15%|█▍        | 146/1000 [00:00<00:04, 201.98it/s]t=:  17%|█▋        | 167/1000 [00:00<00:04, 200.84it/s]t=:  17%|█▋        | 167/1000 [00:00<00:04, 200.84it/s]t=:  17%|█▋        | 167/1000 [00:00<00:04, 200.87it/s]t=:  17%|█▋        | 167/1000 [00:00<00:04, 200.88it/s]t=:  19%|█▉        | 188/1000 [00:00<00:04, 202.15it/s]t=:  19%|█▉        | 188/1000 [00:00<00:04, 202.13it/s]t=:  19%|█▉        | 188/1000 [00:00<00:04, 202.13it/s]t=:  19%|█▉        | 188/1000 [00:00<00:04, 202.15it/s]t=:  21%|██        | 209/1000 [00:01<00:03, 202.98it/s]t=:  21%|██        | 209/1000 [00:01<00:03, 202.99it/s]t=:  21%|██        | 209/1000 [00:01<00:03, 202.98it/s]t=:  21%|██        | 209/1000 [00:01<00:03, 202.99it/s]t=:  23%|██▎       | 230/1000 [00:01<00:03, 203.68it/s]t=:  23%|██▎       | 230/1000 [00:01<00:03, 203.68it/s]t=:  23%|██▎       | 230/1000 [00:01<00:03, 203.67it/s]t=:  23%|██▎       | 230/1000 [00:01<00:03, 203.68it/s]t=:  25%|██▌       | 251/1000 [00:01<00:03, 204.00it/s]t=:  25%|██▌       | 251/1000 [00:01<00:03, 203.99it/s]t=:  25%|██▌       | 251/1000 [00:01<00:03, 203.99it/s]t=:  25%|██▌       | 251/1000 [00:01<00:03, 204.00it/s]t=:  27%|██▋       | 272/1000 [00:01<00:03, 199.46it/s]t=:  27%|██▋       | 272/1000 [00:01<00:03, 199.45it/s]t=:  27%|██▋       | 272/1000 [00:01<00:03, 199.46it/s]t=:  27%|██▋       | 272/1000 [00:01<00:03, 199.45it/s]t=:  29%|██▉       | 293/1000 [00:01<00:03, 200.81it/s]t=:  29%|██▉       | 293/1000 [00:01<00:03, 200.82it/s]t=:  29%|██▉       | 293/1000 [00:01<00:03, 200.81it/s]t=:  29%|██▉       | 293/1000 [00:01<00:03, 200.81it/s]t=:  31%|███▏      | 314/1000 [00:01<00:03, 200.45it/s]t=:  31%|███▏      | 314/1000 [00:01<00:03, 200.45it/s]t=:  31%|███▏      | 314/1000 [00:01<00:03, 200.45it/s]t=:  31%|███▏      | 314/1000 [00:01<00:03, 200.45it/s]t=:  34%|███▎      | 335/1000 [00:01<00:03, 201.68it/s]t=:  34%|███▎      | 335/1000 [00:01<00:03, 201.68it/s]t=:  34%|███▎      | 335/1000 [00:01<00:03, 201.67it/s]t=:  34%|███▎      | 335/1000 [00:01<00:03, 201.68it/s]t=:  36%|███▌      | 356/1000 [00:01<00:03, 202.87it/s]t=:  36%|███▌      | 356/1000 [00:01<00:03, 202.87it/s]t=:  36%|███▌      | 356/1000 [00:01<00:03, 202.87it/s]t=:  36%|███▌      | 356/1000 [00:01<00:03, 202.87it/s]t=:  38%|███▊      | 377/1000 [00:01<00:03, 202.32it/s]t=:  38%|███▊      | 377/1000 [00:01<00:03, 202.32it/s]t=:  38%|███▊      | 377/1000 [00:01<00:03, 202.32it/s]t=:  38%|███▊      | 377/1000 [00:01<00:03, 202.32it/s]t=:  40%|███▉      | 398/1000 [00:01<00:02, 203.27it/s]t=:  40%|███▉      | 398/1000 [00:01<00:02, 203.27it/s]t=:  40%|███▉      | 398/1000 [00:01<00:02, 203.26it/s]t=:  40%|███▉      | 398/1000 [00:01<00:02, 203.26it/s]t=:  42%|████▏     | 419/1000 [00:02<00:02, 203.72it/s]t=:  42%|████▏     | 419/1000 [00:02<00:02, 203.72it/s]t=:  42%|████▏     | 419/1000 [00:02<00:02, 203.72it/s]t=:  42%|████▏     | 419/1000 [00:02<00:02, 203.72it/s]t=:  44%|████▍     | 440/1000 [00:02<00:02, 204.27it/s]t=:  44%|████▍     | 440/1000 [00:02<00:02, 204.27it/s]t=:  44%|████▍     | 440/1000 [00:02<00:02, 204.27it/s]t=:  44%|████▍     | 440/1000 [00:02<00:02, 204.27it/s]t=:  46%|████▌     | 461/1000 [00:02<00:02, 204.65it/s]t=:  46%|████▌     | 461/1000 [00:02<00:02, 204.65it/s]t=:  46%|████▌     | 461/1000 [00:02<00:02, 204.65it/s]t=:  46%|████▌     | 461/1000 [00:02<00:02, 204.65it/s]t=:  48%|████▊     | 482/1000 [00:02<00:02, 204.79it/s]t=:  48%|████▊     | 482/1000 [00:02<00:02, 204.80it/s]t=:  48%|████▊     | 482/1000 [00:02<00:02, 204.80it/s]t=:  48%|████▊     | 482/1000 [00:02<00:02, 204.79it/s]t=:  50%|█████     | 503/1000 [00:02<00:02, 204.53it/s]t=:  50%|█████     | 503/1000 [00:02<00:02, 204.54it/s]t=:  50%|█████     | 503/1000 [00:02<00:02, 204.54it/s]t=:  50%|█████     | 503/1000 [00:02<00:02, 204.54it/s]t=:  52%|█████▏    | 524/1000 [00:02<00:02, 204.26it/s]t=:  52%|█████▏    | 524/1000 [00:02<00:02, 204.26it/s]t=:  52%|█████▏    | 524/1000 [00:02<00:02, 204.26it/s]t=:  52%|█████▏    | 524/1000 [00:02<00:02, 204.26it/s]t=:  55%|█████▍    | 545/1000 [00:02<00:02, 204.54it/s]t=:  55%|█████▍    | 545/1000 [00:02<00:02, 204.54it/s]t=:  55%|█████▍    | 545/1000 [00:02<00:02, 204.54it/s]t=:  55%|█████▍    | 545/1000 [00:02<00:02, 204.54it/s]t=:  57%|█████▋    | 566/1000 [00:02<00:02, 204.82it/s]t=:  57%|█████▋    | 566/1000 [00:02<00:02, 204.83it/s]t=:  57%|█████▋    | 566/1000 [00:02<00:02, 204.82it/s]t=:  57%|█████▋    | 566/1000 [00:02<00:02, 204.82it/s]t=:  59%|█████▊    | 587/1000 [00:02<00:02, 205.27it/s]t=:  59%|█████▊    | 587/1000 [00:02<00:02, 205.27it/s]t=:  59%|█████▊    | 587/1000 [00:02<00:02, 205.26it/s]t=:  59%|█████▊    | 587/1000 [00:02<00:02, 205.26it/s]t=:  61%|██████    | 608/1000 [00:02<00:01, 205.30it/s]t=:  61%|██████    | 608/1000 [00:02<00:01, 205.30it/s]t=:  61%|██████    | 608/1000 [00:02<00:01, 205.30it/s]t=:  61%|██████    | 608/1000 [00:02<00:01, 205.30it/s]t=:  63%|██████▎   | 629/1000 [00:03<00:01, 205.27it/s]t=:  63%|██████▎   | 629/1000 [00:03<00:01, 205.27it/s]t=:  63%|██████▎   | 629/1000 [00:03<00:01, 205.27it/s]t=:  63%|██████▎   | 629/1000 [00:03<00:01, 205.27it/s]t=:  65%|██████▌   | 650/1000 [00:03<00:01, 204.26it/s]t=:  65%|██████▌   | 650/1000 [00:03<00:01, 204.26it/s]t=:  65%|██████▌   | 650/1000 [00:03<00:01, 204.26it/s]t=:  65%|██████▌   | 650/1000 [00:03<00:01, 204.26it/s]t=:  67%|██████▋   | 671/1000 [00:03<00:01, 204.36it/s]t=:  67%|██████▋   | 671/1000 [00:03<00:01, 204.36it/s]t=:  67%|██████▋   | 671/1000 [00:03<00:01, 204.36it/s]t=:  67%|██████▋   | 671/1000 [00:03<00:01, 204.36it/s]t=:  69%|██████▉   | 692/1000 [00:03<00:01, 204.49it/s]t=:  69%|██████▉   | 692/1000 [00:03<00:01, 204.49it/s]t=:  69%|██████▉   | 692/1000 [00:03<00:01, 204.49it/s]t=:  69%|██████▉   | 692/1000 [00:03<00:01, 204.49it/s]t=:  71%|███████▏  | 713/1000 [00:03<00:01, 204.86it/s]t=:  71%|███████▏  | 713/1000 [00:03<00:01, 204.86it/s]t=:  71%|███████▏  | 713/1000 [00:03<00:01, 204.86it/s]t=:  71%|███████▏  | 713/1000 [00:03<00:01, 204.86it/s]t=:  73%|███████▎  | 734/1000 [00:03<00:01, 204.90it/s]t=:  73%|███████▎  | 734/1000 [00:03<00:01, 204.90it/s]t=:  73%|███████▎  | 734/1000 [00:03<00:01, 204.90it/s]t=:  73%|███████▎  | 734/1000 [00:03<00:01, 204.90it/s]t=:  76%|███████▌  | 755/1000 [00:03<00:01, 205.10it/s]t=:  76%|███████▌  | 755/1000 [00:03<00:01, 205.11it/s]t=:  76%|███████▌  | 755/1000 [00:03<00:01, 205.11it/s]t=:  76%|███████▌  | 755/1000 [00:03<00:01, 205.10it/s]t=:  78%|███████▊  | 776/1000 [00:03<00:01, 201.67it/s]t=:  78%|███████▊  | 776/1000 [00:03<00:01, 201.67it/s]t=:  78%|███████▊  | 776/1000 [00:03<00:01, 201.66it/s]t=:  78%|███████▊  | 776/1000 [00:03<00:01, 201.67it/s]t=:  80%|███████▉  | 797/1000 [00:03<00:01, 202.32it/s]t=:  80%|███████▉  | 797/1000 [00:03<00:01, 202.32it/s]t=:  80%|███████▉  | 797/1000 [00:03<00:01, 202.32it/s]t=:  80%|███████▉  | 797/1000 [00:03<00:01, 202.32it/s]t=:  82%|████████▏ | 818/1000 [00:04<00:00, 202.95it/s]t=:  82%|████████▏ | 818/1000 [00:04<00:00, 202.95it/s]t=:  82%|████████▏ | 818/1000 [00:04<00:00, 202.95it/s]t=:  82%|████████▏ | 818/1000 [00:04<00:00, 202.95it/s]t=:  84%|████████▍ | 839/1000 [00:04<00:00, 203.88it/s]t=:  84%|████████▍ | 839/1000 [00:04<00:00, 203.88it/s]t=:  84%|████████▍ | 839/1000 [00:04<00:00, 203.88it/s]t=:  84%|████████▍ | 839/1000 [00:04<00:00, 203.88it/s]t=:  86%|████████▌ | 860/1000 [00:04<00:00, 204.43it/s]t=:  86%|████████▌ | 860/1000 [00:04<00:00, 204.43it/s]t=:  86%|████████▌ | 860/1000 [00:04<00:00, 204.43it/s]t=:  86%|████████▌ | 860/1000 [00:04<00:00, 204.44it/s]t=:  88%|████████▊ | 881/1000 [00:04<00:00, 204.68it/s]t=:  88%|████████▊ | 881/1000 [00:04<00:00, 204.68it/s]t=:  88%|████████▊ | 881/1000 [00:04<00:00, 204.68it/s]t=:  88%|████████▊ | 881/1000 [00:04<00:00, 204.68it/s]t=:  90%|█████████ | 902/1000 [00:04<00:00, 204.95it/s]t=:  90%|█████████ | 902/1000 [00:04<00:00, 204.95it/s]t=:  90%|█████████ | 902/1000 [00:04<00:00, 204.95it/s]t=:  90%|█████████ | 902/1000 [00:04<00:00, 204.95it/s]t=:  92%|█████████▏| 923/1000 [00:04<00:00, 202.58it/s]t=:  92%|█████████▏| 923/1000 [00:04<00:00, 202.58it/s]t=:  92%|█████████▏| 923/1000 [00:04<00:00, 202.58it/s]t=:  92%|█████████▏| 923/1000 [00:04<00:00, 202.58it/s]t=:  94%|█████████▍| 944/1000 [00:04<00:00, 203.72it/s]t=:  94%|█████████▍| 944/1000 [00:04<00:00, 203.72it/s]t=:  94%|█████████▍| 944/1000 [00:04<00:00, 203.72it/s]t=:  94%|█████████▍| 944/1000 [00:04<00:00, 203.72it/s]t=:  96%|█████████▋| 965/1000 [00:04<00:00, 204.40it/s]t=:  96%|█████████▋| 965/1000 [00:04<00:00, 204.40it/s]t=:  96%|█████████▋| 965/1000 [00:04<00:00, 204.40it/s]t=:  96%|█████████▋| 965/1000 [00:04<00:00, 204.40it/s]t=:  99%|█████████▊| 986/1000 [00:04<00:00, 204.76it/s]t=:  99%|█████████▊| 986/1000 [00:04<00:00, 204.76it/s]t=:  99%|█████████▊| 986/1000 [00:04<00:00, 204.77it/s]t=:  99%|█████████▊| 986/1000 [00:04<00:00, 204.77it/s]t=: 100%|██████████| 1000/1000 [00:04<00:00, 203.52it/s]
+t=: 100%|██████████| 1000/1000 [00:04<00:00, 203.55it/s]
+t=: 100%|██████████| 1000/1000 [00:04<00:00, 203.56it/s]
+t=: 100%|██████████| 1000/1000 [00:04<00:00, 203.52it/s]
+
+real	0m7.297s
+user	0m19.062s
+sys	0m4.227s
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc2n368
+Job ID: 22502541
+Cluster: uc2
+User/Group: fr_jr594/fr_fr
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 80
+CPU Utilized: 00:00:24
+CPU Efficiency: 0.83% of 00:48:00 core-walltime
+Job Wall-clock time: 00:00:36
+Memory Utilized: 3.25 MB
+Memory Efficiency: 0.03% of 10.00 GB
